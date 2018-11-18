@@ -1,4 +1,4 @@
-function [ Ps_sim_16PSK,Ps_exact_16PSK,Ps_nearest_16PSK,Eb_No_db ] = fun16qpsk( ~ )
+function [ Ps_sim_16PSK,Ps_exact_16PSK,Ps_nearest_16PSK,Eb_No_db ] = fun16psk( ~ )
 
 step_Eb = 1.5;
 M = 16;
