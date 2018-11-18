@@ -18,7 +18,7 @@ semilogy(Eb_No_db_4QAM,Ps_nearest_4QAM,'r^')
 hold on
 
 %16PSK
-[Ps_sim_16PSK,Ps_exact_16PSK,Ps_nearest_16PSK,Eb_No_db_16PSK] = fun16qpsk();
+[Ps_sim_16PSK,Ps_exact_16PSK,Ps_nearest_16PSK,Eb_No_db_16PSK] = fun16psk();
 semilogy(Eb_No_db_16PSK,Ps_sim_16PSK,'ko')
 hold on
 semilogy(Eb_No_db_16PSK,Ps_exact_16PSK,'k-')
