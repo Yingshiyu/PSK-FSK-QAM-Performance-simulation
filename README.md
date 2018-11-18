@@ -2,7 +2,7 @@
 It contains the relationship between Probability of Symbol Error(Ps) and Signal-noise-rate(Eb/N0).
 
 
-In the 'PSK and QAM'file,fun4qam.m, fun16qam.m and fun16psk.m are the function file.
+In the 'PSK and QAM'folder, fun4qam.m, fun16qam.m and fun16psk.m are the function file.
 run plot_fun.m can plot the curves.
 
 
